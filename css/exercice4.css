@@ -1,0 +1,32 @@
+div{
+    font-size: 30px;
+    font-weight: bold;
+    color: crimson;
+    margin-bottom: 20px;
+}
+
+#submit{
+    color: white;
+    background-color: cornflowerblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#hack{
+    padding: 5px 80px 5px 5px;
+}
+
+.sur{
+    font-size: 14px;
+}
+
+#app{
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    border: solid 3px gray;
+}

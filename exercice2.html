@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Exercice 2</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4 text-danger">Calculatrice</h1>
+        <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+            <div class="card-body">
+                <div class="form-group">
+                <label for="nb1">Premier nombre :</label>
+                <input type="number" class="form-control" id="nb1" required>
+                </div>
+                <div class="form-group">
+                <label for="nb2">Second nombre :</label>
+                <input type="number" class="form-control" id="nb2" required>
+                </div>
+                <div class="form-group"> 
+                <label for="operation">Opération :</label>
+                <select class="form-control" id="operation">
+                    <option value="+">Addition</option>
+                    <option value="-">Soustraction</option>
+                    <option value="*">Multiplication</option>
+                    <option value="/">Division</option>
+                </select>
+                </div>
+                <button class="btn btn-primary" onclick="calcul()">Calculer</button>
+                <div class="alert alert-success mt-3 " id="resultat"></div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="js/exercice2.js"></script>
+</body>
+</html>
